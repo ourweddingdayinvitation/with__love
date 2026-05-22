@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Armenian:wght@400;700&display=swap');
+
+:host {
+}
+
+.fontforhead {
+  margin-bottom: 0px;
+  font-size: 90px;
+  line-height: 1.5;
+  font-family: "Amsterdam", Arial, serif;
+
+}
+
+/* Responsive font size for small screens */
+@media (max-width: 768px) {
+  .fontforhead {
+    font-size: 40px;
+  }
+}
+
+.fh5co-heading h2 {
+  font-size: 60px;
+  margin-bottom: 0px;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #646464;
+  font-family: "Amsterdam", Arial, serif;
+}
+.fh5co-heading p {
+  font-size: 25px;
+  line-height: 2;
+  color: #828282;
+}
+.fh5co-heading span {
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+}
+@media screen and (max-width: 768px) {
+  .fh5co-heading h2 {
+    font-size: 40px;
+  }
+  .fh5co-heading p {
+    font-size: 17px;
+    line-height: 2;
+    color: #828282;
+  }
+  .fh5co-heading span {
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+}
+}
+
+.bgg{
+  background: #000000;
+  opacity: 0.0;
+}
+
+
+.bg-custom{
+
+    background: #939393;
+    opacity: 0.5;
+
+}
+
+/* Hero background position (no Tailwind bg-center — it overrides component SCSS) */
+.hero-photo {
+  background-position: center center;
+
+  @media (max-width: 639px) {
+    /* horizontal 42% (left bias); vertical 45% — nudge toward top */
+    background-position: 42% 45%;
+  }
+
+  @media (min-width: 640px) {
+    background-position: center 85%;
+  }
+}
+@font-face {
+  font-family: 'icomoon';
+  src: url("../assets/fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("../assets/fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../assets/fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../assets/fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../assets/fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face { font-family: Amsterdam; src: url('../assets/fonts/AmsterdamOne.ttf'); } 

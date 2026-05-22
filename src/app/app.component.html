@@ -1,0 +1,292 @@
+<meta property="og:title" content="Arman & Diana Wedding Invitation" />
+<meta
+  property="og:description"
+  content="Join us on 6.9.2025 to celebrate our special day."
+/>
+<meta
+  property="og:image"
+  content="https://taghajan.github.io/arman-dianna/assets/IMG_7461.JPG"
+/>
+<meta
+  property="og:url"
+  content="https://taghajan.github.io/arman-dianna/"
+/>
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Our Wedding Day Invitation" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta
+  property="og:image:alt"
+  content="Arman and Diana in wedding attire with a beautiful background"
+/>
+<html lang="en" prefix="og: https://ogp.me/ns#"></html>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Arman & Diana Wedding Invitation</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta
+  name="description"
+  content="Join us on 6.9.2025 to celebrate our special day."
+/>
+<meta name="keywords" content="Arman,Diana,wedding,website,rsvp" />
+<meta name="author" content="Arman & Diana" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Arman & Diana Wedding Invitation" />
+<meta
+  name="twitter:description"
+  content="Join us on 6.9.2025 to celebrate our special day."
+/>
+<meta
+  name="twitter:image"
+  content="https://taghajan.github.io/arman-dianna/assets/IMG_7461.JPG"
+/>
+<section class="min-h-screen font-serif text-gray-800">
+  <audio id="bg-music" loop>
+    <source
+      src="assets/mot-svadebnaia_LLzBoDJf.mp3"
+      type="audio/mpeg"
+    />
+    Your browser does not support the audio element.
+  </audio>
+
+  <div
+    class="fixed top-4 right-4 z-50 cursor-pointer text-white w-10 h-10 flex items-center justify-center bg-black bg-opacity-50 rounded-full"
+    (click)="toggleAudio()"
+    [title]="isPlaying ? 'Pause music' : 'Play music'"
+  >
+    <ng-container *ngIf="!isPlaying; else pauseIcon">
+      <!-- Play icon -->
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="white"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="white"
+        class="w-6 h-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M5 3v18l15-9L5 3z"
+        />
+      </svg>
+    </ng-container>
+
+    <ng-template #pauseIcon>
+      <!-- Pause icon -->
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="white"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="white"
+        class="w-6 h-6"
+      >
+        <rect x="6" y="4" width="4" height="16" rx="1" />
+        <rect x="14" y="4" width="4" height="16" rx="1" />
+      </svg>
+    </ng-template>
+  </div>
+
+  <!-- Header -->
+  <div
+    class="hero-photo relative h-screen bg-scroll bg-cover text-white"
+    style="background-image: url('assets/IMG_7461.JPG')"
+  >
+    <div class="absolute inset-0 bg-custom"></div>
+    <div
+      class="relative z-10 flex flex-col items-center justify-center h-full text-center"
+    >
+      <h1 class="mb-0 leading-[1.5] text-[40px] font-amsterdam sm:text-[90px]">
+        Arman &amp; Diana
+      </h1>
+
+      <h2 class="font-serif text-[25px] sm:text-[40px] mt-20">05.09.2026</h2>
+    </div>
+  </div>
+
+  <!-- Invitation -->
+  <div class="fh5co-heading px-6 md:px-16">
+    <h2 class="text-4xl font-bold mb-10 text-gray-700 text-center mt-20">
+      Invitation
+    </h2>
+    <p
+      class="text-4xl text-center leading-relaxed text-gray-700 mt-32 md:mx-64"
+    >
+      Դուք հրավիրված եք մեր կյանքի ամենահիշարժան օրվան։<br />
+
+      Այս օրը մենք նշում ենք մեր սերը, միասին կառուցվող ապագան և նոր ընտանիքի
+      սկիզբը։ Մենք մեծ ակնկալիքով սպասում ենք ձեզ տեսնել այդ օրը, որպեսզի միասին
+      տոնենք մեր սրտերի միավորումը։
+    </p>
+  </div>
+
+  <!-- Events -->
+  <div class="fh5co-heading py-16 px-6 mt-40 md:px-16">
+    <h2 class="text-4xl font-bold mb-10 text-gray-700 text-center">Events</h2>
+
+    <div class="flex flex-col md:flex-row justify-center gap-8 mt-20">
+      <div class="p-6 border rounded-xl shadow-md w-full md:w-1/2 transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl">
+        <h3 class="text-zinc-600 text-2xl font-bold border-b pb-4 mb-4 text-center">
+          Պսակադրություն
+        </h3>
+        <div class="text-2xl text-zinc-600 text-center mb-2">14:00</div>
+
+        <div class="text-zinc-600 text-center text-lg mb-4 font-bold">
+        Սուրբ Աստվածածին եկեղեցի (Ջրվեժ)
+        </div>
+
+        <img
+          src="assets/IMG_7664.PNG"
+          alt="Wedding Location"
+          class="md:w-full md:h-[439px] w-full h-[200px] object-cover rounded-lg mb-4"
+        />
+        <div class="text-center">
+          <a href="https://maps.app.goo.gl/Yeu3cWxXjuc9Ku3DA" target="_blank">
+            <button [style]=""
+              class="bg-zinc-600 px-6 py-2 bg-gray-700 text-white rounded hover:bg-gray-900 transition"
+            >
+              Քարտեզ
+            </button>
+          </a>
+        </div>
+      </div>
+      <!-- Betrothal -->
+      <div
+        class="p-6 border rounded-xl shadow-md w-full md:w-1/2 transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl"
+      >
+        <h3 class="text-zinc-600 text-2xl font-bold border-b pb-4 mb-4 text-center text-black"
+        >
+          Հարսանյաց արարողություն
+        </h3>
+        <div class="text-2xl text-zinc-600 text-center mb-2">17:00</div>
+
+        <div class="text-center text-lg mb-4 font-bold text-zinc-600">
+          «Վիվալդի» ռեստորանային համալիր
+        </div>
+        <img
+          src="assets/IMG_7663.PNG"
+          alt="Betrothal Location"
+          class="md:w-full md:h-[439px] w-full h-[200px] object-cover rounded-lg mb-4"
+        />
+        <div class="text-center">
+          <a href="https://maps.app.goo.gl/Ro5pd52aCZ4WxK5XA" target="_blank">
+            <button 
+              class="bg-zinc-600 px-6 py-2 text-white rounded hover:bg-gray-900 transition"
+            >
+              Քարտեզ
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <!-- Wedding -->
+    </div>
+  </div>
+
+  <!-- Gallery -->
+  <div class="fh5co-heading py-16 px-6 md:px-16">
+    <h2 class="text-4xl font-bold mb-12 text-gray-700 text-center">Gallery</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-20">
+      <img
+        src="assets/IMG_7462.JPG"
+        class="rounded-xl shadow-md w-full object-cover transition-transform duration-300 hover:scale-105"
+        alt="Gallery Image 2"
+      />
+      <img
+        src="assets/IMG_7458 (1).JPG"
+        class="rounded-xl shadow-md w-full object-cover transition-transform duration-300 hover:scale-105"
+        alt="Gallery Image 3"
+      />
+      <img
+        src="assets/IMG_7459.JPG"
+        class="rounded-xl shadow-md w-full object-cover transition-transform duration-300 hover:scale-105"
+        alt="Gallery Image 1"
+      />
+
+    </div>
+  </div>
+
+  <!-- What Love Truly Means -->
+  <div class="fh5co-heading h-screen py-16 mt-64 px-6 md:px-16">
+    <h2 class="text-4xl font-bold mb-10 text-gray-700 text-center">
+      What Love Truly Means
+    </h2>
+
+    <p class="text-center text-2xl leading-relaxed text-gray-700 mt-32 md:mx-64">
+      «Մեր պատմությունը սկսվեց մի պարզ հանդիպումից, որը ժամանակի ընթացքում դարձավ մեր կյանքի ամենակարևոր մասը։
+      Օր օրի մեր սրտերը ավելի մոտեցան՝ գտնելով իրենց իրական տեղը միմյանց կողքին։
+      Սերը դարձավ այն ուժը, որը միավորեց մեզ մեկ ճանապարհի մեջ։
+      Այդ ճանապարհով մենք այսօր սկսում ենք մեր կյանքի նոր ու գեղեցիկ փուլը։
+      Լի հավատով, ջերմությամբ և մեծ սիրով մենք կառուցում ենք մեր ապագան միասին։
+    </p>
+      <br>
+     <p class="text-center text-2xl text-gray-700"> Այս հատուկ օրը մեզ համար դառնում է հիշարժան մի նոր սկիզբ։  </p>
+  </div>
+
+  <!-- Countdown to September 5, 2026 -->
+  <div class="fh5co-heading py-20 px-6 md:px-16 mt-24 text-center max-w-4xl mx-auto">
+    <h2 class="text-4xl font-bold mb-2 text-gray-800">September 5, 2026</h2>
+    <p class="text-lg text-stone-600 mb-10">Մնացել է մինչեւ մեր մեծ օրը</p>
+    <ng-container *ngIf="!isWeddingDayOrPast; else afterWedding">
+      <div
+        class="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4"
+        role="timer"
+        aria-live="polite"
+        aria-label="Countdown to September 5, 2026"
+      >
+        <div
+          class="border border-stone-200 rounded-xl p-4 sm:p-6 bg-stone-50/80 shadow-sm"
+        >
+          <div
+            class="text-3xl sm:text-5xl font-bold text-zinc-500 font-amsterdam tabular-nums"
+          >
+            {{ countdown.days }}
+          </div>
+          <div class="text-sm sm:text-base text-zinc-500 mt-1">Օր</div>
+        </div>
+        <div
+          class="border border-stone-200 rounded-xl p-4 sm:p-6 bg-stone-50/80 shadow-sm"
+        >
+          <div
+            class="text-3xl sm:text-5xl font-bold text-zinc-500 font-amsterdam tabular-nums"
+          >
+            {{ pad2(countdown.hours) }}
+          </div>
+          <div class="text-sm sm:text-base text-stone-600 mt-1">Ժամ</div>
+        </div>
+        <div
+          class="border border-stone-200 rounded-xl p-4 sm:p-6 bg-stone-50/80 shadow-sm"
+        >
+          <div
+            class="text-3xl sm:text-5xl font-bold text-zinc-500 font-amsterdam tabular-nums"
+          >
+            {{ pad2(countdown.minutes) }}
+          </div>
+          <div class="text-sm sm:text-base text-zinc-500 mt-1">Րոպե</div>
+        </div>
+        <div
+          class="border border-stone-200 rounded-xl p-4 sm:p-6 bg-stone-50/80 shadow-sm"
+        >
+          <div
+            class="text-3xl sm:text-5xl font-bold text-zinc-500 font-amsterdam tabular-nums"
+          >
+            {{ pad2(countdown.seconds) }}
+          </div>
+          <div class="text-sm sm:text-base text-zinc-500 mt-1">Վայրկյան</div>
+        </div>
+      </div>
+    </ng-container>
+    <ng-template #afterWedding>
+      <p class="text-2xl text-stone-700 font-serif">
+        Շնորհավորանքներ մեզ ՝ այսօր մեր օրն է
+      </p>
+    </ng-template>
+  </div>
+
+  <div class="bg-white border border-6 border-gray-700 py-16 text-center mt-40 mb-40 md:px-16">
+    <p class="font-bold text-3xl text-zinc-500">Խնդրում ենք արձագանքել մինչև 20.08.2026թ</p>
+  </div>
+</section>

@@ -1,0 +1,23 @@
+# Dependencies
+/node_modules
+
+# Build / cache
+/.angular
+/dist
+
+# IDE
+.idea
+.vscode
+*.swp
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+
+# Test
+/coverage
+
+# Local env
+.env
+.env.*
