@@ -24,7 +24,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "baseHref": "/arman-dianna/",
+            "baseHref": "/with__love/",
             "outputPath": "docs",
             "index": "src/index.html",
             "browser": "src/main.ts",
@@ -108,7 +108,7 @@
           "options": {
             "buildTarget": "wedding-invite-app:build:production",
             "dir": "docs/browser",
-            "baseHref": "/arman-dianna/"
+            "baseHref": "/with__love/"
           }
         }
       }
